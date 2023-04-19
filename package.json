@@ -10,13 +10,13 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:c---unit-tests.helloWorld"
+    "onCommand:c---unit-tests.createBoilerplate"
   ],
   "main": "./extension.js",
   "contributes": {
     "commands": [{
-      "command": "c---unit-tests.helloWorld",
-      "title": "Hello World"
+      "command": "c---unit-tests.createBoilerplate",
+      "title": "Create BoilerPlate"
     }]
   },
   "scripts": {
